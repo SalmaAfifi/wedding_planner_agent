@@ -7,7 +7,10 @@ authors = [
     { name = "Salma Afifi", email = "salma.afifi5555@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.7",
+    "mcp[cli]>=2.3.0",
+]
 
 [project.scripts]
 wedding-planner-agent = "wedding_planner_agent:main"
